@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Search Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Image Search Engine</h1>
+    <p>Search for any image you like!</p>
+  </header>
+
+  <!-- search bar -->
+  <section id="search-section">
+    <input type="text" id="search-input" placeholder="Type something to search... (example: cats)" />
+    <button id="search-button">Search</button>
+  </section>
+
+  <!-- last few searches show up here as little buttons -->
+  <section id="history-section"></section>
+
+  <!-- loading / error / no results messages go here -->
+  <section id="message-section"></section>
+
+  <main>
+    <!-- images get added here by script.js -->
+    <section id="results-section"></section>
+
+    <button id="load-more-button">Load More</button>
+  </main>
+
+  <!-- popup that shows the bigger version of an image when you click it -->
+  <div id="image-modal" class="hidden">
+    <span id="modal-close-button">&times;</span>
+    <img id="modal-image" src="" alt="" />
+  </div>
+
+  <footer>
+    <p>Developed by Tehmina Khan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
