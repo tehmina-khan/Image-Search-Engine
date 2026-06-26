@@ -6,10 +6,9 @@ This was a project I built to practice working with APIs, `fetch()`, and dynamic
 
 ## Demo
 
-![screenshot placeholder](images/screenshot.png)
+![alt text](laning-page.png) 
 
-*(add a screenshot or GIF of the app here once it's running)*
-
+![alt text](Search-Results.png)
 ## Features
 
 - Search for images by keyword
